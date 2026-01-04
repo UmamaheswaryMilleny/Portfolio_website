@@ -130,10 +130,10 @@ const HeroSection = () => {
         </div>
 
         {/* Scroll indicator */}
-        <div className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center animate-bounce gap-[8px]">
+        {/* <div className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center animate-bounce gap-[8px]">
           <span className="text-xs text-muted-foreground font-medium">Scroll</span>
           <ArrowDown size={16} className="text-primary" />
-        </div>
+        </div> */}
       </div>
     </section>;
 };

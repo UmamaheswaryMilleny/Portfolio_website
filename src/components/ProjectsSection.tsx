@@ -3,7 +3,7 @@ import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { ExternalLink, Github } from 'lucide-react';
 
-import project1 from '@/assets/project-1.png';
+import project1 from '@/assets/project-11.png';
 import project2 from '@/assets/project-2.png';
 import project3 from '@/assets/project-3.png';
 import project4 from '@/assets/project-4.png';
@@ -15,12 +15,12 @@ gsap.registerPlugin(ScrollTrigger);
 const projects = [
   {
     id: 1,
-    title: '3D Interactive Web',
-    description: 'Email platform for developers with modern 3D frontend integration.',
+    title: 'MacBook Landing Page',
+    description: 'A sleek, interactive landing page inspired by Apple’s product showcase with smooth scroll animations and immersive visuals.',
     image: project1,
     tech: ['React', 'Three.js', 'GSAP'],
-    link: '#',
-    github: '#'
+    link: 'https://mac-book-landing-three.vercel.app/',
+    github: 'https://github.com/UmamaheswaryMilleny/MacBook_Landing'
   },
   {
     id: 2,
@@ -60,12 +60,12 @@ const projects = [
   },
   {
     id: 6,
-    title: 'Animated Portfolio',
-    description: 'Step-by-step animated portfolio with wave effects and smooth transitions.',
+    title: 'Rockstar Games Website Clone',
+    description: 'A responsive clone of the Rockstar Games website focusing on bold visuals, layout accuracy, and smooth interactions',
     image: project6,
-    tech: ['React', 'GSAP', 'Lenis'],
-    link: '#',
-    github: '#'
+    tech: ['HTML', 'CSS', 'JavaScript'],
+    link: 'https://rockstargames-clone.vercel.app/',
+    github: 'https://github.com/UmamaheswaryMilleny/Rockstargames-clone'
   }
 ];
 
