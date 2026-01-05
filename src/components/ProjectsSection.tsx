@@ -3,12 +3,13 @@ import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { ExternalLink, Github } from 'lucide-react';
 
-import project1 from '@/assets/project-11.png';
+import project1 from '@/assets/project-1.png';
 import project2 from '@/assets/project-2.png';
 import project3 from '@/assets/project-3.png';
 import project4 from '@/assets/project-4.png';
 import project5 from '@/assets/project-5.png';
 import project6 from '@/assets/project-6.png';
+import project7 from '@/assets/project-7.png';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -22,50 +23,86 @@ const projects = [
     link: 'https://mac-book-landing-three.vercel.app/',
     github: 'https://github.com/UmamaheswaryMilleny/MacBook_Landing'
   },
-  {
+    {
     id: 2,
-    title: 'Gaming UI Platform',
-    description: 'Next-level gaming interface with character selection and NFT store.',
+    title: 'React Movie App',
+    description: 'A responsive clone of the Rockstar Games website focusing on bold visuals, layout accuracy, and smooth interactions',
     image: project2,
-    tech: ['React', 'Tailwind', 'Framer Motion'],
-    link: '#',
-    github: '#'
+    tech: ['HTML', 'CSS', 'JavaScript'],
+    link: 'https://umamaheswarymilleny.github.io/Movie_App/',
+    github: 'https://github.com/UmamaheswaryMilleny/Movie_App'
   },
+  // {
+  //   id: 2,
+  //   title: 'Gaming UI Platform',
+  //   description: 'Next-level gaming interface with character selection and NFT store.',
+  //   image: project2,
+  //   tech: ['React', 'Tailwind', 'Framer Motion'],
+  //   link: 'https://memory-card-game-mu-orpin.vercel.app/',
+  //   github: 'https://github.com/UmamaheswaryMilleny/Memory-card-game'
+  // },
+  // {
+  //   id: 3,
+  //   title: '3D Portfolio',
+  //   description: 'Modern developer portfolio with immersive 3D elements and animations.',
+  //   image: project3,
+  //   tech: ['React', 'Spline', 'GSAP'],
+  //   link: 'https://tic-tac-toe-one-bay-76.vercel.app/',
+  //   github: 'https://github.com/UmamaheswaryMilleny/Tic-Tac-Toe'
+  // },
   {
     id: 3,
-    title: '3D Portfolio',
-    description: 'Modern developer portfolio with immersive 3D elements and animations.',
+    title: 'Starbucks Website Clone',
+    description: 'Creative gaming website with anime-style visuals and interactions.',
     image: project3,
-    tech: ['React', 'Spline', 'GSAP'],
-    link: '#',
-    github: '#'
+    tech: ['HTML', 'CSS'],
+    link: 'https://memory-card-game-mu-orpin.vercel.app/',
+    github: 'https://github.com/UmamaheswaryMilleny/Memory-card-game'
   },
   {
     id: 4,
-    title: 'Gaming Website',
-    description: 'Creative gaming website with anime-style visuals and interactions.',
+    title: 'Tic-Tac-Toe Game',
+    description: 'Top web animation tools showcase with 3D sphere integration.',
     image: project4,
-    tech: ['HTML', 'CSS', 'JavaScript'],
-    link: '#',
-    github: '#'
+    tech: ['HTML', 'CSS'],
+    link: 'https://tic-tac-toe-one-bay-76.vercel.app/',
+    github: 'https://github.com/UmamaheswaryMilleny/Tic-Tac-Toe'
   },
   {
     id: 5,
-    title: 'Animation Tools',
-    description: 'Top web animation tools showcase with 3D sphere integration.',
-    image: project5,
-    tech: ['React', 'Tailwind', 'Spline'],
-    link: '#',
-    github: '#'
-  },
-  {
-    id: 6,
     title: 'Rockstar Games Website Clone',
     description: 'A responsive clone of the Rockstar Games website focusing on bold visuals, layout accuracy, and smooth interactions',
-    image: project6,
-    tech: ['HTML', 'CSS', 'JavaScript'],
+    image: project5,
+    tech: ['HTML', 'CSS'],
     link: 'https://rockstargames-clone.vercel.app/',
     github: 'https://github.com/UmamaheswaryMilleny/Rockstargames-clone'
+  },
+    {
+    id: 6,
+    title: 'Uber Website Clone',
+    description: 'Top web animation tools showcase with 3D sphere integration.',
+    image: project6,
+    tech: ['HTML', 'CSS'],
+    link: 'https://uber-clone-five-lemon.vercel.app/',
+    github: 'https://github.com/UmamaheswaryMilleny/Uber-Clone'
+  },
+  // {
+  //   id: 7,
+  //   title: 'Rockstar Games Website Clone',
+  //   description: 'A responsive clone of the Rockstar Games website focusing on bold visuals, layout accuracy, and smooth interactions',
+  //   image: project7,
+  //   tech: ['HTML', 'CSS', 'JavaScript'],
+  //   link: 'https://umamaheswarymilleny.github.io/Movie_App/',
+  //   github: 'https://github.com/UmamaheswaryMilleny/Movie_App'
+  // },
+    {
+    id: 7,
+    title: 'Starbucks Website Clone',
+    description: 'Creative gaming website with anime-style visuals and interactions.',
+    image: project7,
+    tech: ['HTML', 'CSS'],
+    link: 'https://starbucks-clone-lovat.vercel.app/',
+    github: 'https://github.com/UmamaheswaryMilleny/Starbucks-Clone'
   }
 ];
 

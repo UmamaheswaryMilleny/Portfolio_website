@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import profileImage from '@/assets/profile.png';
+import profileImage from '@/assets/profile2.png';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -102,7 +102,7 @@ const AboutSection = () => {
 
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Profile Image */}
-          <div ref={imageRef} className="relative flex justify-center lg:justify-start">
+          <div ref={imageRef} className="relative flex justify-center lg:justify-start p-4">
             <div className="relative group">
               {/* Glow ring */}
               <div className="absolute -inset-4 rounded-full bg-gradient-to-r from-primary/30 to-accent/30 blur-2xl opacity-60 group-hover:opacity-100 transition-opacity duration-500" />
@@ -112,7 +112,8 @@ const AboutSection = () => {
                 <img 
                   src={profileImage} 
                   alt="Umamaheswary Milleny"
-                  className="w-full h-full object-cover rounded-full"
+                  className="w-full h-full object-cover object-top
+ rounded-full"
                 />
               </div>
 
