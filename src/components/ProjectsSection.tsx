@@ -10,12 +10,22 @@ import project4 from '@/assets/project-4.png';
 import project5 from '@/assets/project-5.png';
 import project6 from '@/assets/project-6.png';
 import project7 from '@/assets/project-7.png';
+import project8 from '@/assets/project-8.png';
 
 gsap.registerPlugin(ScrollTrigger);
 
 const projects = [
-  {
+   {
     id: 1,
+    title: 'Blendify – E-Commerce Web App',
+    description: 'A smoothie-themed e-commerce web application featuring secure authentication, smart filtering, seamless checkout, and an admin panel for managing products, users, and analytics.',
+    image: project8,
+    tech: ['EJS', 'JavaScript', 'Node.js', 'Express.js', 'MongoDB', 'Passport.js', 'Razorpay'],
+    link: 'https://github.com/UmamaheswaryMilleny/Blendify_smoothie',
+    github: 'https://github.com/UmamaheswaryMilleny/Blendify_smoothie'
+  },
+  {
+    id: 2,
     title: 'MacBook Landing Page',
     description: 'A sleek, interactive landing page inspired by Apple’s product showcase with smooth scroll animations and immersive visuals.',
     image: project1,
@@ -24,7 +34,7 @@ const projects = [
     github: 'https://github.com/UmamaheswaryMilleny/MacBook_Landing'
   },
     {
-    id: 2,
+    id: 3,
     title: 'Movie App – Movie Browsing Website',
     description: 'A movie browsing web application that displays movie information in a clean and user-friendly interface, focusing on layout clarity and smooth user interaction.',
     image: project2,
@@ -32,8 +42,9 @@ const projects = [
     link: 'https://umamaheswarymilleny.github.io/Movie_App/',
     github: 'https://github.com/UmamaheswaryMilleny/Movie_App'
   },
+
   {
-    id: 3,
+    id: 4,
     title: 'Memory Card Game',
     description: 'An interactive memory matching game where players flip cards to find matching pairs, focusing on simple gameplay, clear visuals, and smooth user interaction.',
     image: project3,
@@ -42,7 +53,7 @@ const projects = [
     github: 'https://github.com/UmamaheswaryMilleny/Memory-card-game'
   },
   {
-    id: 4,
+    id: 5,
     title: 'Tic-Tac-Toe Game',
     description: 'A simple browser-based Tic Tac Toe game featuring interactive gameplay, real-time win detection, and a clean, minimal user interface.',
     image: project4,
@@ -51,7 +62,7 @@ const projects = [
     github: 'https://github.com/UmamaheswaryMilleny/Tic-Tac-Toe'
   },
   {
-    id: 5,
+    id: 6,
     title: 'Rockstar Games Clone – Website UI',
     description: 'A responsive clone of the Rockstar Games website focusing on bold visuals, layout accuracy, and smooth interactions',
     image: project5,
@@ -60,7 +71,7 @@ const projects = [
     github: 'https://github.com/UmamaheswaryMilleny/Rockstargames-clone'
   },
     {
-    id: 6,
+    id: 7,
     title: 'Uber Clone – Landing Page UI',
     description: 'A static clone of the Uber landing page designed to replicate the original layout and visual style,',
     image: project6,
@@ -69,7 +80,7 @@ const projects = [
     github: 'https://github.com/UmamaheswaryMilleny/Uber-Clone'
   },
     {
-    id: 7,
+    id: 8,
     title: 'Starbucks Clone – Responsive Static Website',
     description: 'A static clone of the Starbucks homepage showcasing clean layout structure',
     image: project7,

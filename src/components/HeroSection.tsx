@@ -1,6 +1,7 @@
 import { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import { ArrowDown } from 'lucide-react';
+import resume from '@/assets/resume.pdf';
 const HeroSection = () => {
   const sectionRef = useRef<HTMLElement>(null);
   const headlineRef = useRef<HTMLHeadingElement>(null);
@@ -117,14 +118,14 @@ const HeroSection = () => {
                 <ArrowDown size={18} className="group-hover:translate-y-1 transition-transform" />
               </span>
             </button>
-            <a href="#contact" onClick={e => {
-            e.preventDefault();
-            document.querySelector('#contact')?.scrollIntoView({
-              behavior: 'smooth'
-            });
-          }} className="px-6 py-3 rounded-xl font-medium text-foreground border border-border hover:border-primary/50 hover:bg-primary/5 transition-all duration-300">
-              Get In Touch
-            </a>
+     <a
+  href={resume}
+  download="umamaheswary_milleny(resume).pdf"
+  className="px-6 py-3 rounded-xl font-medium text-foreground border border-border hover:border-primary/50 hover:bg-primary/5 transition-all duration-300"
+>
+  Download Resume
+</a>
+
           </div>
         </div>
 

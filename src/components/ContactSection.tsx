@@ -132,7 +132,7 @@ const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
 
   const contactInfo = [
     { icon: Mail, label: 'Email', value: 'umamaheswarymillini@gmail.com', href: 'mailto:umamaheswarymillini@gmail.com' },
-    { icon: Phone, label: 'Phone', value: '+91 7994408936', href: 'tel:+917994408936' },
+    // { icon: Phone, label: 'Phone', value: '+91 7994408936', href: 'tel:+917994408936' },
     { icon: MapPin, label: 'Location', value: 'Kochi, Kerala, India', href: 'https://www.google.com/maps/search/?api=1&query=Kochi,Kerala,India' },
   ];
 
