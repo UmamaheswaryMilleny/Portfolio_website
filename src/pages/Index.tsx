@@ -10,6 +10,8 @@ import AboutSection from "@/components/AboutSection";
 import ProjectsSection from "@/components/ProjectsSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
+import AchievementsSection from "@/components/AchievementsSection";
+
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -58,6 +60,7 @@ const Index = () => {
           <HeroSection />
           <AboutSection />
           <ProjectsSection />
+            <AchievementsSection />  {/* <-- Added */}
           <ContactSection />
         </main>
         <Footer />
