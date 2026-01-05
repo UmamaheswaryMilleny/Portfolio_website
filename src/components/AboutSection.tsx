@@ -8,13 +8,18 @@ gsap.registerPlugin(ScrollTrigger);
 const skills = [
   { name: 'HTML5', icon: '🌐' },
   { name: 'CSS3', icon: '🎨' },
+  { name: 'Tailwind CSS', icon: '💨' },
   { name: 'JavaScript', icon: '⚡' },
-  { name: 'React', icon: '⚛️' },
-  { name: 'GSAP', icon: '🎬' },
-  { name: 'Three.js', icon: '🔮' },
   { name: 'TypeScript', icon: '📘' },
+  { name: 'React', icon: '⚛️' },
   { name: 'Node.js', icon: '🟢' },
+  { name: 'MongoDB', icon: '🍃' },
+  { name: 'Supabase', icon: '🗄️' },       // small project / learning experience
+  { name: 'Git / GitHub', icon: '🐙' },
+  { name: 'GSAP', icon: '🎬' },           // small project experience
+  { name: 'Three.js', icon: '🔮' },       // small project experience
 ];
+
 
 const AboutSection = () => {
   const sectionRef = useRef<HTMLElement>(null);
@@ -129,24 +134,18 @@ const AboutSection = () => {
                 Hi there, I'm Milleny
               </h3>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                I specialize in frontend development, crafting dynamic, visually engaging, 
-                and highly responsive websites that provide seamless user experiences. With a 
-                strong foundation in HTML, CSS, and JavaScript, I focus on building modern 
-                web interfaces that are not only aesthetically appealing but also optimized 
-                for performance and accessibility.
+            I am a full-stack developer with a strong passion for frontend development, coming from a Mechanical Engineering background. I discovered my love for coding and decided to change my career, pursuing web development with determination. I completed a bootcamp at Brototype Institute, where I self-learned the MERN stack through weekly hands-on projects reviewed by experienced mentors.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                My expertise extends to advanced frameworks like React and animation libraries 
-                like GSAP, enabling me to create interactive, efficient applications. Whether 
-                it's designing sleek UI components, implementing smooth animations, or enhancing 
-                user interactions, my goal is to develop web solutions that are both functional 
-                and innovative.
+             Without any prior coding experience, I successfully built several mini and full-scale projects, gaining practical knowledge in full-stack development, UI/UX design, problem-solving, and project deployment. My journey reflects my self-motivation, continuous learning, and dedication to creating functional and meaningful software solutions.
+
+I am eager to grow as a developer, constantly improve my skills, and contribute to impactful tech projects while focusing on building clean, engaging, and user-friendly interfaces.
               </p>
             </div>
 
             {/* Skills */}
             <div>
-              <h4 className="text-lg font-semibold text-foreground mb-6">Tech Stack</h4>
+              <h4 className="text-lg font-semibold text-foreground mb-6">Tech Stack I worked with</h4>
               <div className="skills-grid grid grid-cols-4 gap-2">
                 {skills.map((skill) => (
                   <div 

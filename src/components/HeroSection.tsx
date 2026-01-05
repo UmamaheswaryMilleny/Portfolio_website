@@ -106,8 +106,7 @@ const HeroSection = () => {
 
           {/* Subtitle */}
           <p ref={subtitleRef} className="text-lg text-muted-foreground max-w-2xl mx-auto mb-10 font-light md:text-base">
-            Crafting immersive digital experiences with cutting-edge technology. 
-            Specializing in modern web development, creative animations, and 3D interactions.
+        I build clean, responsive, and user-focused MERN stack applications. Turning ideas into functional, visually clean experiences.
           </p>
 
           {/* CTA Buttons */}
