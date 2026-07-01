@@ -23,8 +23,8 @@ const projects = [
   description: 'A full-stack productivity and accountability platform featuring task management, Pomodoro tracking, calendar scheduling, study-buddy matching, real-time group study rooms, gamification, and premium subscriptions.',
   image: project10,
   tech: ['React', 'TypeScript', 'Node.js', 'Express.js', 'MongoDB', 'Socket.IO', 'Redis', 'Stripe'],
-    link: 'https://github.com/UmamaheswaryMilleny/ProTime',
-    github: 'https://www.pro-time.online/'
+  link: 'https://www.pro-time.online/',
+  github: 'https://github.com/UmamaheswaryMilleny/ProTime',
   },
    {
     id: 2,
@@ -42,8 +42,8 @@ const projects = [
   description: 'An AI-powered architectural visualization platform that transforms 2D floor plans into photorealistic 3D renders using advanced AI models, featuring serverless processing workflows and persistent metadata management.',
   image: project9,
   tech: ['React', 'TypeScript', 'Puter.js'],
-  link: 'https://github.com/UmamaheswaryMilleny/Archify',
-  github: 'https://archify-inky.vercel.app/'
+  link: 'https://archify-inky.vercel.app/',
+  github: 'https://github.com/UmamaheswaryMilleny/Archify',
 },
   {
     id: 4,
