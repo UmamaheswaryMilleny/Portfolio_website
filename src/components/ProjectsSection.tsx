@@ -11,12 +11,23 @@ import project5 from '@/assets/project-5.png';
 import project6 from '@/assets/project-6.png';
 import project7 from '@/assets/project-7.png';
 import project8 from '@/assets/project-8.png';
+import project9 from '@/assets/project-9.png';
+import project10 from '@/assets/project-10.png';
 
 gsap.registerPlugin(ScrollTrigger);
 
 const projects = [
    {
     id: 1,
+  title: 'ProTime – Productivity & Accountability Platform',
+  description: 'A full-stack productivity and accountability platform featuring task management, Pomodoro tracking, calendar scheduling, study-buddy matching, real-time group study rooms, gamification, and premium subscriptions.',
+  image: project10,
+  tech: ['React', 'TypeScript', 'Node.js', 'Express.js', 'MongoDB', 'Socket.IO', 'Redis', 'Stripe'],
+    link: 'https://github.com/UmamaheswaryMilleny/ProTime',
+    github: 'https://www.pro-time.online/'
+  },
+   {
+    id: 2,
     title: 'Blendify – E-Commerce Web App',
     description: 'A smoothie-themed e-commerce web application featuring secure authentication, smart filtering, seamless checkout, and an admin panel for managing products, users, and analytics.',
     image: project8,
@@ -24,8 +35,18 @@ const projects = [
     link: 'https://github.com/UmamaheswaryMilleny/Blendify_smoothie',
     github: 'https://github.com/UmamaheswaryMilleny/Blendify_smoothie'
   },
+
   {
-    id: 2,
+  id: 3,
+  title: 'Archify – AI-Powered Architectural Visualization Platform',
+  description: 'An AI-powered architectural visualization platform that transforms 2D floor plans into photorealistic 3D renders using advanced AI models, featuring serverless processing workflows and persistent metadata management.',
+  image: project9,
+  tech: ['React', 'TypeScript', 'Puter.js'],
+  link: 'https://github.com/UmamaheswaryMilleny/Archify',
+  github: 'https://archify-inky.vercel.app/'
+},
+  {
+    id: 4,
     title: 'MacBook Landing Page',
     description: 'A sleek, interactive landing page inspired by Apple’s product showcase with smooth scroll animations and immersive visuals.',
     image: project1,
@@ -34,7 +55,7 @@ const projects = [
     github: 'https://github.com/UmamaheswaryMilleny/MacBook_Landing'
   },
     {
-    id: 3,
+    id: 5,
     title: 'Movie App – Movie Browsing Website',
     description: 'A movie browsing web application that displays movie information in a clean and user-friendly interface, focusing on layout clarity and smooth user interaction.',
     image: project2,
@@ -44,7 +65,7 @@ const projects = [
   },
 
   {
-    id: 4,
+    id: 6,
     title: 'Memory Card Game',
     description: 'An interactive memory matching game where players flip cards to find matching pairs, focusing on simple gameplay, clear visuals, and smooth user interaction.',
     image: project3,
@@ -53,7 +74,7 @@ const projects = [
     github: 'https://github.com/UmamaheswaryMilleny/Memory-card-game'
   },
   {
-    id: 5,
+    id: 7,
     title: 'Tic-Tac-Toe Game',
     description: 'A simple browser-based Tic Tac Toe game featuring interactive gameplay, real-time win detection, and a clean, minimal user interface.',
     image: project4,
@@ -62,7 +83,7 @@ const projects = [
     github: 'https://github.com/UmamaheswaryMilleny/Tic-Tac-Toe'
   },
   {
-    id: 6,
+    id: 8,
     title: 'Rockstar Games Clone – Website UI',
     description: 'A responsive clone of the Rockstar Games website focusing on bold visuals, layout accuracy, and smooth interactions',
     image: project5,
@@ -71,7 +92,7 @@ const projects = [
     github: 'https://github.com/UmamaheswaryMilleny/Rockstargames-clone'
   },
     {
-    id: 7,
+    id: 9,
     title: 'Uber Clone – Landing Page UI',
     description: 'A static clone of the Uber landing page designed to replicate the original layout and visual style,',
     image: project6,
@@ -80,7 +101,7 @@ const projects = [
     github: 'https://github.com/UmamaheswaryMilleny/Uber-Clone'
   },
     {
-    id: 8,
+    id: 10,
     title: 'Starbucks Clone – Responsive Static Website',
     description: 'A static clone of the Starbucks homepage showcasing clean layout structure',
     image: project7,
